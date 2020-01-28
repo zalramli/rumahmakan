@@ -57,7 +57,8 @@ include "koneksi/koneksi.php";
 
 <!-- Custom styles for this template-->
 <link href="assets/template/sb_admin_2/css/sb-admin-2.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="assets/js/sweetalert.js"></script>
+
 
 </head>
 

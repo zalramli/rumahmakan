@@ -16,7 +16,7 @@
 
 </script> -->
 <!-- Format Rupiah -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
 
 
 <script>
