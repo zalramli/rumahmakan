@@ -102,7 +102,7 @@ if (isset($_GET['hapus'])) {
                                 </div>
                                 <div class="form-group col-sm-6">
                                     <label for="inputEmail2">Password</label>
-                                    <input type="text" name="password"
+                                    <input type="password" name="password"
                                         class="form-control form-control-sm" id="inputEmail2"
                                         placeholder="Masukan password" required>
                                 </div>
@@ -208,7 +208,7 @@ if (isset($_GET['hapus'])) {
                                 </div>
                                 <div class="form-group col-sm-6">
                                     <label for="inputEmail2">Password</label>
-                                    <input type="text" name="password" 
+                                    <input type="password" name="password" 
                                         class="form-control form-control-sm" id="inputEmail2"
                                         placeholder="Masukan password" required>
                                 </div>
