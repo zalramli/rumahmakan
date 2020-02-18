@@ -6,12 +6,14 @@ include "koneksi/koneksi.php";
 include "koneksi/function.php";
 if (!isset($_SESSION['username_user'])) {
     header('location:index.php');
-} elseif ($_SESSION['akses'] != "Admin")
-{
-    echo "<script>alert('Maaf Anda tidak berhak mengakses halaman ini')</script>";
-    echo "<script>window.history.back();</script>";
-}
-?>
+} 
+// elseif ($_SESSION['akses'] != "Admin")
+// {
+//     echo "<script>alert('Maaf Anda tidak berhak mengakses halaman ini')</script>";
+//     echo "<script>window.history.back();</script>";
+// }
+// ?>
+
 <head>
 
     <!-- Head -->
@@ -26,7 +28,7 @@ if (!isset($_SESSION['username_user'])) {
     <div id="wrapper">
 
         <!-- Sidebar -->
-    <?php include "_partial/sidebar.php"; ?>
+        <?php include "_partial/sidebar.php"; ?>
 
         <!-- End of Sidebar -->
 
@@ -37,7 +39,7 @@ if (!isset($_SESSION['username_user'])) {
             <div id="content">
 
                 <!-- Topbar -->
-    <?php include "_partial/topbar.php"; ?>
+                <?php include "_partial/topbar.php"; ?>
 
                 <!-- End of Topbar -->
 
@@ -74,7 +76,7 @@ if (!isset($_SESSION['username_user'])) {
             <!-- End of Main Content -->
 
             <!-- Footer -->
-    <?php include "_partial/footer.php"; ?>
+            <?php include "_partial/footer.php"; ?>
 
             <!-- End of Footer -->
 

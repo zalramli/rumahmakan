@@ -6,26 +6,29 @@ include "koneksi/koneksi.php";
 include "koneksi/function.php";
 if (!isset($_SESSION['username_user'])) {
     header('location:index.php');
-} elseif ($_SESSION['akses'] != "Kasir")
-{
-    echo "<script>alert('Maaf Anda tidak berhak mengakses halaman ini')</script>";
-    echo "<script>window.history.back();</script>";
-}
+} 
+// elseif ($_SESSION['akses'] != "Kasir")
+// {
+//     echo "<script>alert('Maaf Anda tidak berhak mengakses halaman ini')</script>";
+//     echo "<script>window.history.back();</script>";
+// }
 ?>
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        
+
     <script src="assets/js/sweetalert.js"></script>
 
     <title>Warung Barokah</title>
-  </head>
-  <body>
-  <?php 
+</head>
+
+<body>
+    <?php 
                 if(!isset($_GET['halaman'])) {
                         error_reporting(0);
                     }
@@ -45,7 +48,8 @@ if (!isset($_SESSION['username_user'])) {
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.mask.js"></script>
-  
 
-  </body>
+
+</body>
+
 </html>
